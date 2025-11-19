@@ -1,0 +1,2 @@
+MONGODB_URI="your_mongoDb_URi_here"
+PORT=3000
