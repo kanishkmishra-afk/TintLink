@@ -3,14 +3,19 @@ import Link from "../models/linkModel.js"
 export const createlink=async(req,res)=>{
     try {
         const {code,targetUrl}=req.body
-        if(!(code && targetUrl)){
-            return res.status(400).json({message:"Code or targeturl is not present"})
+        if(!targetUrl){
+            return res.status(400).json({message:"Target URL is not present"})
+        }
+        if(!code){
+            return res.status(400).json({message:"Code is not present"})
         }
         const existingLink=await Link.findOne({code})
         if(existingLink){
             return res.status(409).json({message:"Code already exists"})
         }
-
+        console.log(code);
+        console.log(targetUrl);
+        
         const link= await Link.create({
             code,
             targetUrl
