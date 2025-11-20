@@ -67,26 +67,6 @@ TinyLink/
 - **npm** or **yarn**
 - **MongoDB** (local or cloud, e.g., MongoDB Atlas)
 
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/kanishkmishra-afk/TintLink.git
-   cd TinyLink
-   ```
-
-2. **Backend Setup**:
-   ```bash
-   cd backend
-   npm install
-   ```
-
-3. **Frontend Setup**:
-   ```bash
-   cd frontend
-   npm install
-   ```
-
 ### Environment Variables
 
 Create a `.env` file in the `backend/` directory. Use `.env.example` as a template:
@@ -101,43 +81,13 @@ BASE_URL=http://localhost:3000
 **Environment Variables:**
 - `MONGO_URI`: MongoDB connection string (local or Atlas)
 - `PORT`: Backend server port (default: 3000)
-- `NODE_ENV`: Environment mode (development/production)
 - `BASE_URL`: Frontend origin for CORS
 
-### Running Locally
-
-#### Start the Backend
-
-```bash
-cd backend
-npm install
-node index.js
 ```
 
-Expected output:
-```
-Server is running on port 3000
-Database connected
-```
-
-#### Start the Frontend
-
-In a new terminal:
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Expected output:
-```
-VITE v7.x.x  ready in xxx ms
 
 ➜  Local:   http://localhost:5173/
 ```
-
-**Open** http://localhost:5173 in your browser.
-
 ## API Endpoints
 
 ### Create a Short Link

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const SERVER = 'http://localhost:3000'
+const SERVER = 'https://tintlink-backend.onrender.com'
 
 export default function HealthCheck() {
   const [status, setStatus] = useState(null)
