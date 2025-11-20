@@ -240,9 +240,6 @@ curl http://localhost:3000/healthz
 ```
 MONGO_URI=mongodb://localhost:27017/tinylink
 PORT=3000
-NODE_ENV=development
-BASE_URL=http://localhost:3000
-CORS_ORIGIN=http://localhost:5173
 ```
 
 ## Known Issues & Limitations
