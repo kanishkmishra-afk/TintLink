@@ -23,8 +23,8 @@ app.get('/', (req, res) => {
   res.json({ status: 'OK', version: '1.0' })
 })
 
+await connectDB()
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`)
   console.log(`CORS enabled for: ${CORS_ORIGIN}`)
-  connectDB()
 })
