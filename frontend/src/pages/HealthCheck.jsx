@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-const SERVER = 'https://tint-link-backend.vercel.app/'
+const SERVER = 'https://tint-link-backend.vercel.app'
 
 export default function HealthCheck() {
   const [status, setStatus] = useState(null)
