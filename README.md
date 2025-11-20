@@ -2,6 +2,8 @@
 
 A minimal but complete URL shortener web app similar to bit.ly. Create short links, track clicks, and manage your URLs in one place.
 
+[LIVE LINK](https://tintlink-frontend.onrender.com/)
+
 ## Features
 
 - **Create Short Links**: Convert long URLs into short, shareable links with optional custom codes.
@@ -253,5 +255,5 @@ CORS_ORIGIN=http://localhost:5173
 
 ---
 
-**Live Demo**: [Coming Soon]
+**Live Demo**: [[TINY LINK](https://tintlink-frontend.onrender.com/)]
 **GitHub**: [https://github.com/kanishkmishra-afk/TintLink](https://github.com/kanishkmishra-afk/TintLink)
