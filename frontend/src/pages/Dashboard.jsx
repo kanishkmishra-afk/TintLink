@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
-const SERVER = 'http://localhost:3000'
+const SERVER = 'https://tint-link-backend.vercel.app'
 
 function truncate(text, n = 80) {
   if (!text) return ''
