@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const SERVER = 'https://tintlink-backend.onrender.com'
+const SERVER = 'https://tint-link-backend.vercel.app/'
 
 export default function Status() {
   const { code } = useParams()
