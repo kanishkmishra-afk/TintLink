@@ -10,7 +10,7 @@ dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 3000
-const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:5173'
+const CORS_ORIGIN ='https://tintlink-frontend.onrender.com'
 
 app.use(express.json())
 app.use(cors({ origin: CORS_ORIGIN }))
